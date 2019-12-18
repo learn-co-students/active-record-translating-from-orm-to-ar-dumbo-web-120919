@@ -12,7 +12,6 @@ describe "Dog" do
   end
 
   describe "inheritence" do
-    it 'inherits from ActiveRecord::Base' do
       expect(Dog.superclass).to eq(ActiveRecord::Base)
     end
   end
